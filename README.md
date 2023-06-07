@@ -5,14 +5,11 @@
 
 ### <div align="center">Hey, Mika here! 👋 I am a apprentice software developer 👨‍💻 since 2022 🚀</div>  
   
-
-- 💻 I’m currently working on a portfolio page written in React. 🌐   
+- ###### 💻 I’m currently working on a portfolio page written in React. 🌐   
   
 
-- 📘 I’m currently learning all about React and Terraform.   
+- ###### 📘 I’m currently learning all about React and Terraform.   
   
-
-<br/>  
 
 
 ## My Skill Set  
@@ -37,7 +34,6 @@
 </td><td valign="top" width="33%">
 
 
-
 ### Backend  
 <div align="center">  
 <a href="https://www.javascript.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" /></a>  
@@ -56,7 +52,6 @@
 </td><td valign="top" width="33%">
 
 
-
 ### DevOps  
 <div align="center">  
 <a href="https://aws.amazon.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/amazonwebservices-original-wordmark.svg" alt="AWS" height="50" /></a>  
@@ -68,8 +63,6 @@
 
 </td></tr></table>  
 
-<br/>  
-
 
 ## Connect with me  
 <div align="center">
@@ -80,30 +73,24 @@
 <img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
 </a>  
 </a>
-<a href="https://linkedin.com/in/mika-stiebitz-0a13b122b" target="_blank">
-<img src=https://img.shields.io/badge/-Discord-blue alt=linkedin style="margin-bottom: 5px;" />
+<a href="https://discord.com/users/562708555023777792" target="_blank">
+<img src=https://img.shields.io/badge/-Discord-blue?&style=for-the-badge&logo=Discord&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
 </a> 
 </div>  
 
-<br/>  
-
-
 ## Github Stats  
-<div align="center"><img src="https://github-readme-stats.vercel.app/api?username=MikaStiebitz&show_icons=true&count_private=true&hide_border=true" align="center" /></div>  
-
-<br/>  
+![](https://github-readme-stats.vercel.app/api?username=MikaStiebitz&theme=algolia&hide_border=false&include_all_commits=true&count_private=true)
+![](https://github-readme-streak-stats.herokuapp.com/?user=MikaStiebitz&theme=algolia&hide_border=false)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=MikaStiebitz&theme=algolia&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
 ## ✍️ Random Dev Quote
-
-<br/>  
 
 <div align="center">
 <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" align="center" />
 </div> 
 
 ## Recently played on Spotify
-  
-<br/>  
+
 
 <div align="center"><img src="https://spotify-github-profile.vercel.app/api/view?uid=31urn4p6upf5pjntnc7ohz4v646u&cover_image=true&theme=compact&show_offline=false&background_color=121212&interchange=false" /></div>  
 
