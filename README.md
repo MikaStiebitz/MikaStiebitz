@@ -5,10 +5,10 @@
 
 ### <div align="center">Hey, Mika here! 👋 I am a apprentice software developer 👨‍💻 since 2022 🚀</div>  
   
-- ###### 💻 I’m currently working on a portfolio page written in React. 🌐   
+- 💻 I’m currently working on a portfolio page written in React. 🌐   
   
 
-- ###### 📘 I’m currently learning all about React and Terraform.   
+- 📘 I’m currently learning all about React and Terraform.   
   
 
 
