@@ -89,10 +89,5 @@
 <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" align="center" />
 </div> 
 
-## Recently played on Spotify
-
-
-<div align="center"><img src="https://spotify-github-profile.vercel.app/api/view?uid=31urn4p6upf5pjntnc7ohz4v646u&cover_image=true&theme=compact&show_offline=false&background_color=121212&interchange=false" /></div>  
-
 ----
 [![](https://visitcount.itsvg.in/api?id=MikaStiebitz&icon=0&color=0)](https://visitcount.itsvg.in)
