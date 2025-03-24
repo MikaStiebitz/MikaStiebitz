@@ -85,17 +85,6 @@
 
 </div>
 
-## <div align="center">📊 GitHub Stats 📊</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MikaStiebitz&theme=radical&hide_border=true" alt="GitHub Streak Stats" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MikaStiebitz&show_icons=true&theme=radical&hide_border=true&count_private=true" width="49%" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MikaStiebitz&layout=compact&theme=radical&hide_border=true" width="49%" alt="Top Languages" />
-</div>
-
 ## <div align="center">🧩 Tech Stack 🧩</div>
 
 <div align="center">
