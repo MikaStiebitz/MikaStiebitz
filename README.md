@@ -105,12 +105,6 @@
   <a href="mailto:mika.stiebitz@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
-  <a href="https://github.com/MikaStiebitz">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-</div>
-
-<div align="center">
   <a href="#top">
     <img src="https://custom-icon-badges.demolab.com/badge/-⬆️_Back_to_Top-purple?style=for-the-badge&logoColor=white"/>
   </a>
