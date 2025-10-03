@@ -74,8 +74,8 @@
         <br>AWS
       </td>
       <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=php" alt="PHP" width="48" height="48" />
-        <br>PHP
+        <img src="https://techstack-generator.vercel.app/restapi-icon.svg" alt="REST" width="48" height="48" />
+        <br>REST
       </td>
       <td align="center" width="96">
         <img src="https://skillicons.dev/icons?i=vite" alt="Vite" width="48" height="48" />
