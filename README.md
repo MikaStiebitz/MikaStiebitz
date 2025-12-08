@@ -7,8 +7,7 @@
 </div>
 
 <div align="center">
-  <img src="https://custom-icon-badges.demolab.com/badge/Currently-Online-brightgreen?style=for-the-badge&logo=broadcast-tower&logoColor=white"/>
-  <img src="https://komarev.com/ghpvc/?username=MikaStiebitz&style=for-the-badge&color=blueviolet" alt="Profile Views"/>
+  <img src="https://komarev.com/ghpvc/?username=MikaStiebitz&color=blueviolet" alt="Profile Views"/>
   <a href="https://wakatime.com/@1722166e-293b-46d0-8ece-a536ce873518"><img src="https://wakatime.com/badge/user/1722166e-293b-46d0-8ece-a536ce873518.svg" alt="Total time coded since Mar 24 2025" /></a>
 </div>
 
