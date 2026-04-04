@@ -88,11 +88,45 @@
 
 <div align="center">
   <a href="https://github.com/MikaStiebitz/React-Modern-Gantt">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=MikaStiebitz&repo=React-Modern-Gantt&theme=radical&hide_border=true" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=MikaStiebitz&repo=React-Modern-Gantt&theme=radical&hide_border=true&show_owner=true" />
   </a>
   <a href="https://github.com/MikaStiebitz/Git-Gud">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=MikaStiebitz&repo=Git-Gud&theme=radical&hide_border=true" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=MikaStiebitz&repo=Git-Gud&theme=radical&hide_border=true&show_owner=true" />
   </a>
+  <a href="https://github.com/MikaStiebitz/NextJS-Multiplayer-Template">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=MikaStiebitz&repo=NextJS-Multiplayer-Template&theme=radical&hide_border=true&show_owner=true" />
+  </a>
+</div>
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <a href="https://github.com/MikaStiebitz/React-Modern-Gantt">
+          <b>⚡ React-Modern-Gantt</b><br/>
+          <img src="https://img.shields.io/github/stars/MikaStiebitz/React-Modern-Gantt?style=flat-square&color=f724a9" alt="Stars"/>
+          <img src="https://img.shields.io/github/forks/MikaStiebitz/React-Modern-Gantt?style=flat-square&color=blueviolet" alt="Forks"/>
+          <img src="https://img.shields.io/github/languages/top/MikaStiebitz/React-Modern-Gantt?style=flat-square" alt="Language"/>
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/MikaStiebitz/Git-Gud">
+          <b>🎮 Git-Gud</b><br/>
+          <img src="https://img.shields.io/github/stars/MikaStiebitz/Git-Gud?style=flat-square&color=f724a9" alt="Stars"/>
+          <img src="https://img.shields.io/github/forks/MikaStiebitz/Git-Gud?style=flat-square&color=blueviolet" alt="Forks"/>
+          <img src="https://img.shields.io/github/languages/top/MikaStiebitz/Git-Gud?style=flat-square" alt="Language"/>
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/MikaStiebitz/NextJS-Multiplayer-Template">
+          <b>🕹️ NextJS-Multiplayer-Template</b><br/>
+          <img src="https://img.shields.io/github/stars/MikaStiebitz/NextJS-Multiplayer-Template?style=flat-square&color=f724a9" alt="Stars"/>
+          <img src="https://img.shields.io/github/forks/MikaStiebitz/NextJS-Multiplayer-Template?style=flat-square&color=blueviolet" alt="Forks"/>
+          <img src="https://img.shields.io/github/languages/top/MikaStiebitz/NextJS-Multiplayer-Template?style=flat-square" alt="Language"/>
+        </a>
+      </td>
+    </tr>
+  </table>
 </div>
 
 ## <div align="center">🌐 Connect & Explore 🌐</div>
