@@ -87,12 +87,14 @@
 ## <div align="center">🔭 Current Projects 🔭</div>
 
 <div align="center">
-  <a href="https://github.com/MikaStiebitz/React-Modern-Gantt">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=MikaStiebitz&repo=React-Modern-Gantt&theme=radical&hide_border=true" />
-  </a>
   <a href="https://github.com/MikaStiebitz/Git-Gud">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=MikaStiebitz&repo=Git-Gud&theme=radical&hide_border=true" />
+    <img src="https://github-readme-stats-sable-kappa-18.vercel.app/api/pin/?username=MikaStiebitz&repo=Git-Gud&theme=radical&hide_border=true" />
   </a>
+  <a href="https://github.com/MikaStiebitz/React-Modern-Gantt">
+    <img src="https://github-readme-stats-sable-kappa-18.vercel.app/api/pin/?username=MikaStiebitz&repo=React-Modern-Gantt&theme=radical&hide_border=true" />
+  </a>
+  <a href="https://github.com/MikaStiebitz/NextJS-Multiplayer-Template">
+    <img src="https://github-readme-stats-sable-kappa-18.vercel.app/api/pin/?username=MikaStiebitz&repo=NextJS-Multiplayer-Template&theme=radical&hide_border=true" />
 </div>
 
 ## <div align="center">🌐 Connect & Explore 🌐</div>
