@@ -97,13 +97,15 @@
     <img src="https://github-readme-stats-sable-kappa-18.vercel.app/api/pin/?username=MikaStiebitz&repo=NextJS-Multiplayer-Template&theme=radical&hide_border=true" />
 </div>
 
-## <div align="center">🌐 Connect & Explore 🌐</div>
+## <div align="center">💖 Sponsors 💖</div>
 
 <div align="center">
-  <a href="https://linkedin.com/in/mika-stiebitz-0a13b122b">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="mailto:mika.stiebitz@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
+  <p>A huge thank you to <a href="https://github.com/BhariGowda">@BhariGowda</a> for sponsoring! 💜</p>
+</div>
+
+## <div align="center">☕ Buy Me a Coffee ☕</div>
+
+<div align="center">
+  <a href="https://www.buymeacoffee.com/mika.stiebitz" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me a Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+  <p>Thanks to everyone supporting me on Buy Me a Coffee!</p>
 </div>
