@@ -108,11 +108,11 @@
   </a>
 </div>
 
-## <div align="center">💖 Sponsoren 💖</div>
+## <div align="center">💖 Sponsors 💖</div>
 
 <div align="center">
-  <p>Ein riesiges Dankeschön an <a href="https://github.com/BhariGowda">@BhariGowda</a> für das Sponsoring! 💜</p>
-  <p>Diese Liste wird automatisch aktualisiert.</p>
+  <p>A huge thank you to <a href="https://github.com/BhariGowda">@BhariGowda</a> for sponsoring! 💜</p>
+  <p>This list is updated automatically.</p>
 </div>
 
 <!-- sponsors -->
@@ -124,7 +124,7 @@
   <a href="https://buymeacoffee.com/mika.stiebitz">
     <img src="https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&emoji=☕&slug=mika.stiebitz&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" alt="Buy me a coffee"/>
   </a>
-  <p>Danke an alle Unterstützer*innen bei Buy Me a Coffee!</p>
+  <p>Thanks to everyone supporting me on Buy Me a Coffee!</p>
 </div>
 
 <!-- buymeacoffee-supporters -->
