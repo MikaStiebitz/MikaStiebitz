@@ -97,12 +97,6 @@
     <img src="https://github-readme-stats-sable-kappa-18.vercel.app/api/pin/?username=MikaStiebitz&repo=faster-browser-agent&theme=radical&hide_border=true" />
 </div>
 
-## <div align="center">💖 Sponsors 💖</div>
-
-<div align="center">
-  <p>A huge thank you to <a href="https://github.com/BhariGowda">@BhariGowda</a> for sponsoring! 💜</p>
-</div>
-
 ## <div align="center">☕ Buy Me a Coffee ☕</div>
 
 <div align="center">
