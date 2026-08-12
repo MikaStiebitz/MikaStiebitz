@@ -93,8 +93,8 @@
   <a href="https://github.com/MikaStiebitz/React-Modern-Gantt">
     <img src="https://github-readme-stats-sable-kappa-18.vercel.app/api/pin/?username=MikaStiebitz&repo=React-Modern-Gantt&theme=radical&hide_border=true" />
   </a>
-  <a href="https://github.com/MikaStiebitz/NextJS-Multiplayer-Template">
-    <img src="https://github-readme-stats-sable-kappa-18.vercel.app/api/pin/?username=MikaStiebitz&repo=NextJS-Multiplayer-Template&theme=radical&hide_border=true" />
+  <a href="https://github.com/MikaStiebitz/faster-browser-agent">
+    <img src="https://github-readme-stats-sable-kappa-18.vercel.app/api/pin/?username=MikaStiebitz&repo=faster-browser-agent&theme=radical&hide_border=true" />
 </div>
 
 ## <div align="center">💖 Sponsors 💖</div>
