@@ -96,10 +96,3 @@
   <a href="https://github.com/MikaStiebitz/faster-browser-agent">
     <img src="https://github-readme-stats-sable-kappa-18.vercel.app/api/pin/?username=MikaStiebitz&repo=faster-browser-agent&theme=radical&hide_border=true" />
 </div>
-
-## <div align="center">☕ Buy Me a Coffee ☕</div>
-
-<div align="center">
-  <a href="https://www.buymeacoffee.com/mika.stiebitz" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me a Coffee" style="height: 60px !important;width: 217px !important;" ></a>
-  <p>Thanks to everyone supporting me on Buy Me a Coffee!</p>
-</div>
