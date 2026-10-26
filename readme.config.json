@@ -1,0 +1,14 @@
+{
+  "login": "MikaStiebitz",
+  "displayName": "Mika Stiebitz",
+  "tagline": "Full-stack developer building tools for developers and the AI agents next to them.",
+  "roles": ["shipping Git-Mastery", "building MCP servers", "exploring Rust", "3D printing things"],
+  "wakatimeUser": "1722166e-293b-46d0-8ece-a536ce873518",
+  "repos": {
+    "max": 6,
+    "min": 4,
+    "activeWithinDays": 180,
+    "exclude": ["MikaStiebitz"]
+  },
+  "heartbeatDays": 60
+}
