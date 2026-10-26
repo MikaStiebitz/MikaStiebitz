@@ -1,0 +1,13 @@
+{
+  "login": "MikaStiebitz",
+  "displayName": "Mika Stiebitz",
+  "tagline": "full-stack dev · building tools for developers & the AI agents next to them",
+  "wakatimeUser": "1722166e-293b-46d0-8ece-a536ce873518",
+  "repos": {
+    "max": 6,
+    "min": 4,
+    "activeWithinDays": 180,
+    "exclude": ["MikaStiebitz"]
+  },
+  "heartbeatDays": 60
+}
