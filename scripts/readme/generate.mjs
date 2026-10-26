@@ -10,7 +10,7 @@ import { existsSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { collect } from "./fetch.mjs";
-import { renderBoot, renderPulse, renderActivity, renderWaka, renderRepo, renderToolbox, describeEvents, esc } from "./render.mjs";
+import { renderBoot, renderPulse, renderActivity, renderWaka, renderRepo, describeEvents, esc } from "./render.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..", "..");
 const ASSETS = join(ROOT, "assets");
@@ -53,16 +53,12 @@ const uptime = (() => {
 })();
 const heartbeat = data.contributions ? data.contributions.slice(-30).reduce((a, d) => a + d.count, 0) : null;
 
-// ASCII banner, made once with: npx figlet -f "ANSI Shadow" "MIKA STIEBITZ"
-const banner = (await readFile(join(ROOT, "scripts", "readme", "banner.txt"), "utf8")).split("\n").filter((l) => l.trim());
-
 const files = {
   "boot.svg": renderBoot({
-    banner,
     now,
-    year: new Date(now).getUTCFullYear(),
     displayName: config.displayName,
     tagline: config.tagline,
+    roles: config.roles,
     location: data.user?.location,
     repoCount: data.user?.public_repos ?? publicRepos.length,
     stars,
@@ -74,7 +70,6 @@ const files = {
   "pulse.svg": renderPulse(data.contributions),
   "activity.svg": renderActivity(describeEvents(data.events, config.login), now),
   "wakatime.svg": renderWaka(data.waka),
-  "toolbox.svg": renderToolbox(config.toolbox),
 };
 
 await mkdir(join(ASSETS, "repos"), { recursive: true });

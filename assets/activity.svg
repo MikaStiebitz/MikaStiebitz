@@ -1,12 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="434" height="272" viewBox="0 0 434 272" fill="none" role="img">
-<defs></defs>
-<rect width="434" height="272" rx="8" fill="#0B0B0C"/>
-<rect x="10.5" y="14.5" width="413" height="247" rx="3" stroke="#2C2C31"/>
-<rect x="22" y="6" width="120" height="18" fill="#0B0B0C"/>
-<text x="26" y="19" font-family="'JetBrains Mono','SFMono-Regular','SF Mono',Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="12.5" xml:space="preserve"><tspan fill="#3A3A40">┤ </tspan><tspan fill="#EDEDED" font-weight="700">activity.log</tspan><tspan fill="#3A3A40"> ├</tspan></text>
-<rect x="329.5" y="6" width="82.5" height="18" fill="#0B0B0C"/>
-<text x="333.5" y="19" font-family="'JetBrains Mono','SFMono-Regular','SF Mono',Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="12.5" xml:space="preserve"><tspan fill="#3A3A40">┤ </tspan><tspan fill="#6C6C72">tail -f</tspan><tspan fill="#3A3A40"> ├</tspan></text>
-<text x="30" y="58" font-family="'JetBrains Mono','SFMono-Regular','SF Mono',Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="12.5" xml:space="preserve"><tspan fill="#6C6C72" font-weight="700">[ WAIT ] </tspan><tspan fill="#6C6C72">no public events yet</tspan></text>
-<text x="30" y="246" font-family="'JetBrains Mono','SFMono-Regular','SF Mono',Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="12.5" xml:space="preserve"><tspan fill="#6C6C72">$ </tspan></text>
-<rect x="45" y="234" width="8" height="15" fill="#B8FF6B"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.5;.5;1" dur="1.1s" repeatCount="indefinite"/></rect>
+<svg xmlns="http://www.w3.org/2000/svg" width="434" height="284" viewBox="0 0 434 284" fill="none" role="img">
+<defs>
+  <filter id="glow" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  
+</defs>
+<rect x=".5" y=".5" width="433" height="283" rx="16" fill="#0B0B0D" stroke="#232329"/>
+<circle cx="24" cy="22" r="5" fill="#3A3A40"/><circle cx="41" cy="22" r="5" fill="#3A3A40"/><circle cx="58" cy="22" r="5" fill="#3A3A40"/>
+<text x="76" y="26" font-family="'JetBrains Mono','SFMono-Regular','SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" letter-spacing="1.5" fill="#75757C">ACTIVITY</text>
+
+<line x1="1" y1="44.5" x2="433" y2="44.5" stroke="#232329"/>
+<text x="28" y="80" font-family="'JetBrains Mono','SFMono-Regular','SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#75757C">no public events yet</text>
 </svg>

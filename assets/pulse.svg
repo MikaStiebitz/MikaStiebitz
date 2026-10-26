@@ -1,11 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="150" viewBox="0 0 880 150" fill="none" role="img">
-<defs></defs>
-<rect width="880" height="150" rx="8" fill="#0B0B0C"/>
-<rect x="10.5" y="14.5" width="859" height="125" rx="3" stroke="#2C2C31"/>
-<rect x="22" y="6" width="97.5" height="18" fill="#0B0B0C"/>
-<text x="26" y="19" font-family="'JetBrains Mono','SFMono-Regular','SF Mono',Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="12.5" xml:space="preserve"><tspan fill="#3A3A40">┤ </tspan><tspan fill="#EDEDED" font-weight="700">heartbeat</tspan><tspan fill="#3A3A40"> ├</tspan></text>
-<rect x="775.5" y="6" width="82.5" height="18" fill="#0B0B0C"/>
-<text x="779.5" y="19" font-family="'JetBrains Mono','SFMono-Regular','SF Mono',Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="12.5" xml:space="preserve"><tspan fill="#3A3A40">┤ </tspan><tspan fill="#6C6C72">monitor</tspan><tspan fill="#3A3A40"> ├</tspan></text>
-<text x="36" y="70" font-family="'JetBrains Mono','SFMono-Regular','SF Mono',Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="12" xml:space="preserve" textLength="808" lengthAdjust="spacingAndGlyphs"><tspan fill="#3A3A40">────────────────────────────────────────────────────────────────────────────────────────────────</tspan></text>
-<text x="36" y="104" font-family="'JetBrains Mono','SFMono-Regular','SF Mono',Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="13" xml:space="preserve"><tspan fill="#6C6C72" font-weight="700">[ WAIT ] </tspan><tspan fill="#6C6C72">no pulse yet. the bot syncs every 4 hours</tspan></text>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="280" viewBox="0 0 880 280" fill="none" role="img">
+<defs>
+  <filter id="glow" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  
+</defs>
+<rect x=".5" y=".5" width="879" height="279" rx="16" fill="#0B0B0D" stroke="#232329"/>
+<circle cx="24" cy="22" r="5" fill="#3A3A40"/><circle cx="41" cy="22" r="5" fill="#3A3A40"/><circle cx="58" cy="22" r="5" fill="#3A3A40"/>
+<text x="76" y="26" font-family="'JetBrains Mono','SFMono-Regular','SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" letter-spacing="1.5" fill="#75757C">HEARTBEAT</text>
+
+<line x1="1" y1="44.5" x2="879" y2="44.5" stroke="#232329"/>
+<line x1="36" y1="216" x2="844" y2="216" stroke="#3A3A40" stroke-width="2" stroke-dasharray="4 6"><animate attributeName="stroke-dashoffset" from="0" to="-20" dur="1s" repeatCount="indefinite"/></line>
+<text x="440" y="140" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular','SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#75757C">waiting for the first pulse · the bot syncs every 4 hours</text>
 </svg>
