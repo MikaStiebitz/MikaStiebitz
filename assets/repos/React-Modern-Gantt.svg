@@ -21,5 +21,5 @@
   <text x="408" y="134" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular','SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#B3B3B8">react-modern-gantt.vercel… ↗</text>
 </g>
 <rect x="26" y="150" width="382" height="3" rx="1.5" fill="#1A1A1F"/>
-<rect x="26" y="150" width="0" height="3" rx="1.5" fill="url(#fresh)"><animate attributeName="width" begin="0.30s" dur="1.4s" to="83.37" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".2 .8 .2 1"/></rect>
+<rect x="26" y="150" width="0" height="3" rx="1.5" fill="url(#fresh)"><animate attributeName="width" begin="0.30s" dur="1.4s" to="82.58" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".2 .8 .2 1"/></rect>
 </svg>
