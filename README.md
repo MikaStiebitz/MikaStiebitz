@@ -40,5 +40,5 @@
 <br>
 
 <div align="center">
-<sub><code>last rebuild: 2026-10-26 09:20 UTC</code> · <a href="https://mikastiebitz.vercel.app/">portfolio ↗</a> · <a href="scripts/readme">how this README builds itself</a></sub>
+<sub><code>last rebuild: 2026-10-26 09:46 UTC</code> · <a href="https://mikastiebitz.vercel.app/">portfolio ↗</a> · <a href="scripts/readme">how this README builds itself</a></sub>
 </div>
