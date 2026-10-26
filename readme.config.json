@@ -9,5 +9,12 @@
     "activeWithinDays": 180,
     "exclude": ["MikaStiebitz"]
   },
-  "heartbeatDays": 60
+  "heartbeatDays": 60,
+  "toolbox": {
+    "languages": ["typescript", "javascript", "python", "rust", "c++", "php"],
+    "frontend": ["react", "next.js", "tailwind", "vite"],
+    "backend": ["node", "rest", "mcp", "electron"],
+    "infra": ["docker", "aws", "vercel", "github actions"],
+    "data": ["mongodb", "mysql", "supabase"]
+  }
 }

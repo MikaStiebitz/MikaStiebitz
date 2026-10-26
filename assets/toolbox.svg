@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="184" viewBox="0 0 880 184" fill="none" role="img">
+<defs></defs>
+<rect width="880" height="184" rx="8" fill="#0B0B0C"/>
+<rect x="10.5" y="14.5" width="859" height="159" rx="3" stroke="#2C2C31"/>
+<rect x="22" y="6" width="105" height="18" fill="#0B0B0C"/>
+<text x="26" y="19" font-family="'JetBrains Mono','SFMono-Regular','SF Mono',Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="12.5" xml:space="preserve"><tspan fill="#3A3A40">┤ </tspan><tspan fill="#EDEDED" font-weight="700">~/.toolbox</tspan><tspan fill="#3A3A40"> ├</tspan></text>
+<rect x="805.5" y="6" width="52.5" height="18" fill="#0B0B0C"/>
+<text x="809.5" y="19" font-family="'JetBrains Mono','SFMono-Regular','SF Mono',Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="12.5" xml:space="preserve"><tspan fill="#3A3A40">┤ </tspan><tspan fill="#6C6C72">cat</tspan><tspan fill="#3A3A40"> ├</tspan></text>
+<text x="36" y="52" font-family="'JetBrains Mono','SFMono-Regular','SF Mono',Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="13" xml:space="preserve"><tspan fill="#6C6C72">languages .. </tspan><tspan fill="#EDEDED">typescript  ·  javascript  ·  python  ·  rust  ·  c++  ·  php</tspan></text>
+<text x="36" y="76" font-family="'JetBrains Mono','SFMono-Regular','SF Mono',Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="13" xml:space="preserve"><tspan fill="#6C6C72">frontend ... </tspan><tspan fill="#EDEDED">react  ·  next.js  ·  tailwind  ·  vite</tspan></text>
+<text x="36" y="100" font-family="'JetBrains Mono','SFMono-Regular','SF Mono',Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="13" xml:space="preserve"><tspan fill="#6C6C72">backend .... </tspan><tspan fill="#EDEDED">node  ·  rest  ·  mcp  ·  electron</tspan></text>
+<text x="36" y="124" font-family="'JetBrains Mono','SFMono-Regular','SF Mono',Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="13" xml:space="preserve"><tspan fill="#6C6C72">infra ...... </tspan><tspan fill="#EDEDED">docker  ·  aws  ·  vercel  ·  github actions</tspan></text>
+<text x="36" y="148" font-family="'JetBrains Mono','SFMono-Regular','SF Mono',Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" font-size="13" xml:space="preserve"><tspan fill="#6C6C72">data ....... </tspan><tspan fill="#EDEDED">mongodb  ·  mysql  ·  supabase</tspan></text>
+</svg>
