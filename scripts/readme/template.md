@@ -6,8 +6,6 @@
 <a href="https://github.com/{{login}}"><img src="https://komarev.com/ghpvc/?username={{login}}&style=flat-square&color=555555&label=profile+views" alt="Profile views"></a>
 <a href="https://wakatime.com/@{{wakatime_user}}"><img src="https://wakatime.com/badge/user/{{wakatime_user}}.svg?style=flat-square" alt="Total time coded (WakaTime)"></a>
 
-<sub><b>This README is alive.</b> Nobody writes it by hand: a bot rebuilds it from my real GitHub & WakaTime data every 4 hours.<br>The heartbeat below is my actual contribution history.</sub>
-
 </div>
 
 <br>

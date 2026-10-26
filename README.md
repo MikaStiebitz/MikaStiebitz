@@ -5,8 +5,6 @@
 <a href="https://github.com/MikaStiebitz"><img src="https://komarev.com/ghpvc/?username=MikaStiebitz&style=flat-square&color=555555&label=profile+views" alt="Profile views"></a>
 <a href="https://wakatime.com/@1722166e-293b-46d0-8ece-a536ce873518"><img src="https://wakatime.com/badge/user/1722166e-293b-46d0-8ece-a536ce873518.svg?style=flat-square" alt="Total time coded (WakaTime)"></a>
 
-<sub><b>This README is alive.</b> Nobody writes it by hand: a bot rebuilds it from my real GitHub & WakaTime data every 4 hours.<br>The heartbeat below is my actual contribution history.</sub>
-
 </div>
 
 <br>
