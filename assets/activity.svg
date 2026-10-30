@@ -17,7 +17,7 @@
   <rect x="48" y="60" width="28" height="19" rx="9.5" stroke="#B8FF6B"/>
   <text x="55" y="74" font-family="'JetBrains Mono','SFMono-Regular','SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" font-weight="700" letter-spacing=".5" fill="#B8FF6B">PR</text>
   <text x="122" y="74" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="13.5" fill="#F2F2F2">MikaStiebitz #3</text>
-  <text x="410" y="74" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular','SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11.5" fill="#75757C">3d</text>
+  <text x="410" y="74" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular','SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11.5" fill="#75757C">4d</text>
 </g>
 <g opacity="0"><animate attributeName="opacity" begin="0.38s" dur=".5s" to="1" fill="freeze"/>
   <animateTransform attributeName="transform" type="translate" begin="0.38s" dur=".5s" from="-10 0" to="0 0" fill="freeze" additive="sum" calcMode="spline" keyTimes="0;1" keySplines=".2 .8 .2 1"/>
@@ -33,7 +33,7 @@
   <rect x="48" y="122" width="42" height="19" rx="9.5" stroke="#3A3A40"/>
   <text x="55" y="136" font-family="'JetBrains Mono','SFMono-Regular','SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" font-weight="700" letter-spacing=".5" fill="#B3B3B8">STAR</text>
   <text x="122" y="136" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="13.5" fill="#F2F2F2">usestrix/strix</text>
-  <text x="410" y="136" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular','SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11.5" fill="#75757C">5d</text>
+  <text x="410" y="136" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular','SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11.5" fill="#75757C">6d</text>
 </g>
 <g opacity="0"><animate attributeName="opacity" begin="0.64s" dur=".5s" to="1" fill="freeze"/>
   <animateTransform attributeName="transform" type="translate" begin="0.64s" dur=".5s" from="-10 0" to="0 0" fill="freeze" additive="sum" calcMode="spline" keyTimes="0;1" keySplines=".2 .8 .2 1"/>
@@ -41,7 +41,7 @@
   <rect x="48" y="153" width="63" height="19" rx="9.5" stroke="#3A3A40"/>
   <text x="55" y="167" font-family="'JetBrains Mono','SFMono-Regular','SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" font-weight="700" letter-spacing=".5" fill="#B3B3B8">COMMENT</text>
   <text x="122" y="167" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="13.5" fill="#F2F2F2">Git-Mastery #113</text>
-  <text x="410" y="167" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular','SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11.5" fill="#75757C">9d</text>
+  <text x="410" y="167" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular','SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11.5" fill="#75757C">10d</text>
 </g>
 <g opacity="0"><animate attributeName="opacity" begin="0.77s" dur=".5s" to="1" fill="freeze"/>
   <animateTransform attributeName="transform" type="translate" begin="0.77s" dur=".5s" from="-10 0" to="0 0" fill="freeze" additive="sum" calcMode="spline" keyTimes="0;1" keySplines=".2 .8 .2 1"/>
@@ -49,7 +49,7 @@
   <rect x="48" y="184" width="49" height="19" rx="9.5" stroke="#3A3A40"/>
   <text x="55" y="198" font-family="'JetBrains Mono','SFMono-Regular','SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" font-weight="700" letter-spacing=".5" fill="#B3B3B8">ISSUE</text>
   <text x="122" y="198" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="13.5" fill="#F2F2F2">Git-Mastery #113</text>
-  <text x="410" y="198" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular','SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11.5" fill="#75757C">9d</text>
+  <text x="410" y="198" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular','SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11.5" fill="#75757C">10d</text>
 </g>
 <g opacity="0"><animate attributeName="opacity" begin="0.90s" dur=".5s" to="1" fill="freeze"/>
   <animateTransform attributeName="transform" type="translate" begin="0.90s" dur=".5s" from="-10 0" to="0 0" fill="freeze" additive="sum" calcMode="spline" keyTimes="0;1" keySplines=".2 .8 .2 1"/>
@@ -57,7 +57,7 @@
   <rect x="48" y="215" width="49" height="19" rx="9.5" stroke="#3A3A40"/>
   <text x="55" y="229" font-family="'JetBrains Mono','SFMono-Regular','SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" font-weight="700" letter-spacing=".5" fill="#B3B3B8">ISSUE</text>
   <text x="122" y="229" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="13.5" fill="#F2F2F2">Git-Mastery #112</text>
-  <text x="410" y="229" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular','SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11.5" fill="#75757C">9d</text>
+  <text x="410" y="229" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular','SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11.5" fill="#75757C">10d</text>
 </g>
 <g opacity="0"><animate attributeName="opacity" begin="1.03s" dur=".5s" to="1" fill="freeze"/>
   <animateTransform attributeName="transform" type="translate" begin="1.03s" dur=".5s" from="-10 0" to="0 0" fill="freeze" additive="sum" calcMode="spline" keyTimes="0;1" keySplines=".2 .8 .2 1"/>
