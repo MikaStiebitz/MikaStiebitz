@@ -10,7 +10,7 @@
   <text x="26" y="38" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="20" font-weight="800" letter-spacing="-.4" fill="#F2F2F2">Availability-Checker</text>
 </g>
 <rect x="343.6" y="19" width="64.4" height="22" rx="11" stroke="#3A3A40"/>
-<text x="375.8" y="34" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular','SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="700" letter-spacing="1" fill="#75757C">4W AGO</text>
+<text x="375.8" y="34" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular','SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="700" letter-spacing="1" fill="#75757C">5W AGO</text>
 <g opacity="0"><animate attributeName="opacity" begin="0.25s" dur=".5s" to="1" fill="freeze"/>
   <animateTransform attributeName="transform" type="translate" begin="0.25s" dur=".5s" from="0 6" to="0 0" fill="freeze" additive="sum" calcMode="spline" keyTimes="0;1" keySplines=".2 .8 .2 1"/>
 <text x="26" y="70" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="13.5" fill="#B3B3B8">Is your name actually available? Check domains,</text>
@@ -22,5 +22,5 @@
   <text x="408" y="134" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular','SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#B3B3B8">namevet.vercel.app ↗</text>
 </g>
 <rect x="26" y="150" width="382" height="3" rx="1.5" fill="#1A1A1F"/>
-<rect x="26" y="150" width="0" height="3" rx="1.5" fill="url(#fresh)"><animate attributeName="width" begin="0.30s" dur="1.4s" to="315.57" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".2 .8 .2 1"/></rect>
+<rect x="26" y="150" width="0" height="3" rx="1.5" fill="url(#fresh)"><animate attributeName="width" begin="0.30s" dur="1.4s" to="314.79" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".2 .8 .2 1"/></rect>
 </svg>
