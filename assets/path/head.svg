@@ -21,6 +21,6 @@
 <text x="148" y="168" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="16.5" fill="#B9B4D6">Full-stack developer building tools for developers and the AI agents next to them.</text>
 </g>
 <g opacity="0"><animate attributeName="opacity" begin="0.504s" dur=".5s" to="1" fill="freeze"/><animateTransform attributeName="transform" type="translate" begin="0.504s" dur=".5s" from="-10 0" to="0 0" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".2 .8 .2 1"/>
-<text x="148" y="204" font-family="'JetBrains Mono','SFMono-Regular','SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#7C7699" xml:space="preserve">15 public repos   ·   616 ★   ·   1072 contributions in the last 30 days</text>
+<text x="148" y="204" font-family="'JetBrains Mono','SFMono-Regular','SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#7C7699" xml:space="preserve">15 public repos   ·   619 ★   ·   1239 contributions in the last 30 days</text>
 </g>
 </svg>

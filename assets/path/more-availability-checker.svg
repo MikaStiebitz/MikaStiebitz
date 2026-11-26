@@ -19,6 +19,6 @@
 <g opacity="0"><animate attributeName="opacity" begin="3.021s" dur=".5s" to="1" fill="freeze"/><animateTransform attributeName="transform" type="translate" begin="3.021s" dur=".5s" from="-10 0" to="0 0" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".2 .8 .2 1"/>
 <text x="148" y="28" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="17" fill="#F5F4FD" font-weight="700">Availability-Checker</text>
 <text x="148" y="49" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="13.5" fill="#7C7699">Is your name actually available? Check domains, app stores, GitHub and trademark re…</text>
-<text x="804" y="28" font-family="'JetBrains Mono','SFMono-Regular','SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#B9B4D6" text-anchor="end" xml:space="preserve">TypeScript   ★ 0</text>
+<text x="804" y="28" font-family="'JetBrains Mono','SFMono-Regular','SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#B9B4D6" text-anchor="end" xml:space="preserve">TypeScript   ★ 2</text>
 </g>
 </svg>
