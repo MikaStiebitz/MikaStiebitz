@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="46" viewBox="0 0 840 46" fill="none" role="img">
+<defs>
+<filter id="glow" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="3.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+
+</defs>
+<rect width="840" height="46" fill="#0C091F"/><path d="M.5 0V46M839.5 0V46" stroke="#2B2450"/>
+<line x1="44" y1="0" x2="44" y2="46" stroke="#9455EF" stroke-opacity=".18" stroke-width="10" stroke-linecap="round" stroke-dasharray="46" stroke-dashoffset="46"><animate attributeName="stroke-dashoffset" begin="2.706s" dur="0.088s" to="0" fill="freeze"/></line>
+<line x1="44" y1="0" x2="44" y2="46" stroke="#9455EF" stroke-width="3" stroke-dasharray="46" stroke-dashoffset="46"><animate attributeName="stroke-dashoffset" begin="2.706s" dur="0.088s" to="0" fill="freeze"/></line>
+<circle cx="44" cy="0" r="5" fill="#FFFFFF" filter="url(#glow)" opacity="0">
+  <animate attributeName="cy" values="0;0;46;46" keyTimes="0;0.588;0.609;1" begin="4.287s" dur="9.257s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.588;0.588;0.609;0.61;1" begin="4.287s" dur="9.257s" repeatCount="indefinite"/>
+</circle>
+<g opacity="0"><animate attributeName="opacity" begin="2.794s" dur=".5s" to="1" fill="freeze"/><animateTransform attributeName="transform" type="translate" begin="2.794s" dur=".5s" from="-10 0" to="0 0" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".2 .8 .2 1"/>
+<text x="148" y="30" font-family="'JetBrains Mono','SFMono-Regular','SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#7C7699"><tspan fill="#B7F652">$</tspan> git branch --sort=-committerdate</text>
+</g>
+</svg>

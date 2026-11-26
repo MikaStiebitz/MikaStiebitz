@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="184" viewBox="0 0 840 184" fill="none" role="img">
+<defs>
+<filter id="glow" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="3.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+
+</defs>
+<rect width="840" height="184" fill="#0C091F"/><path d="M.5 0V184M839.5 0V184" stroke="#2B2450"/>
+<line x1="44" y1="0" x2="44" y2="184" stroke="#9455EF" stroke-opacity=".18" stroke-width="10" stroke-linecap="round" stroke-dasharray="184" stroke-dashoffset="184"><animate attributeName="stroke-dashoffset" begin="3.271s" dur="0.354s" to="0" fill="freeze"/></line>
+<line x1="44" y1="0" x2="44" y2="184" stroke="#9455EF" stroke-width="3" stroke-dasharray="184" stroke-dashoffset="184"><animate attributeName="stroke-dashoffset" begin="3.271s" dur="0.354s" to="0" fill="freeze"/></line>
+<circle cx="44" cy="0" r="5" fill="#FFFFFF" filter="url(#glow)" opacity="0">
+  <animate attributeName="cy" values="0;0;184;184" keyTimes="0;0.726;0.812;1" begin="4.287s" dur="9.257s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.726;0.726;0.812;0.813;1" begin="4.287s" dur="9.257s" repeatCount="indefinite"/>
+</circle>
+<path d="M44 8C44 38 100 30 100 60V146" pathLength="1" stroke="#FDC94B" stroke-width="3" stroke-linecap="round" stroke-dasharray="1" stroke-dashoffset="1"><animate attributeName="stroke-dashoffset" begin="3.287s" dur="0.5s" to="0" fill="freeze"/></path>
+<circle r="4.5" fill="#FDC94B" filter="url(#glow)" opacity="0">
+  <animateMotion path="M44 8C44 38 100 30 100 60V146" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.729;0.794;1" begin="4.287s" dur="9.257s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.729;0.73;0.794;0.795;1" begin="4.287s" dur="9.257s" repeatCount="indefinite"/>
+</circle>
+<circle cx="100" cy="70" r="0" fill="#FDC94B" stroke="#FDC94B" stroke-width="3"><animate attributeName="r" begin="3.406s" dur=".35s" values="0;9.450000000000001;7" fill="freeze"/></circle>
+<g opacity="0"><animate attributeName="opacity" begin="3.437s" dur=".5s" to="1" fill="freeze"/><animateTransform attributeName="transform" type="translate" begin="3.437s" dur=".5s" from="-10 0" to="0 0" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".2 .8 .2 1"/>
+<rect x="148" y="22" width="82.8" height="24" rx="12" fill="#FDC94B" fill-opacity=".12" stroke="#FDC94B" stroke-opacity=".55"/>
+<text x="159" y="38.5" font-family="'JetBrains Mono','SFMono-Regular','SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" font-weight="700" fill="#FDC94B">visitors</text>
+<text x="147" y="82" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="24" fill="#F5F4FD" font-weight="800" letter-spacing="-.5">Your turn: leave a commit.</text>
+<text x="148" y="108" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="14.5" fill="#B9B4D6">Pick a message under this graph. A bot commits your name to this branch.</text>
+</g>
+
+<circle cx="100" cy="146" r="5.5" fill="#FDC94B" opacity="0"><animate attributeName="r" values="5.5;15.399999999999999" dur="1.8s" begin="3.552s" repeatCount="indefinite"/><animate attributeName="opacity" values=".5;0" dur="1.8s" begin="3.552s" repeatCount="indefinite"/></circle><circle cx="100" cy="146" r="0" fill="#0C091F" stroke="#FDC94B" stroke-width="3" stroke-dasharray="3 3"><animate attributeName="r" begin="3.552s" dur=".35s" values="0;7.425000000000001;5.5" fill="freeze"/></circle>
+<g opacity="0"><animate attributeName="opacity" begin="3.61s" dur=".5s" to="1" fill="freeze"/><animateTransform attributeName="transform" type="translate" begin="3.61s" dur=".5s" from="-10 0" to="0 0" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".2 .8 .2 1"/>
+<text x="148" y="150" font-family="'JetBrains Mono','SFMono-Regular','SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#FDC94B">← no commits yet. be the first.</text>
+</g>
+</svg>

@@ -2,13 +2,45 @@
   "login": "MikaStiebitz",
   "displayName": "Mika Stiebitz",
   "tagline": "Full-stack developer building tools for developers and the AI agents next to them.",
-  "roles": ["shipping Git-Mastery", "building MCP servers", "exploring Rust", "3D printing things"],
   "wakatimeUser": "1722166e-293b-46d0-8ece-a536ce873518",
-  "repos": {
-    "max": 6,
-    "min": 4,
-    "activeWithinDays": 180,
+  "work": {
+    "company": "Tradebyte",
+    "group": "Zalando Group",
+    "role": "Full-stack developer",
+    "since": "",
+    "what": "",
+    "stack": ["TypeScript", "React", "Next.js", "Python", "PHP"]
+  },
+  "featured": [
+    {
+      "repo": "Git-Mastery",
+      "branch": "feature/git-mastery",
+      "color": "lime",
+      "state": "shipped",
+      "note": "merged into main · live at gitmastery.me",
+      "description": "A browser game where you type real Git commands and watch the commit graph react.",
+      "images": [{ "file": "git-mastery.jpg", "alt": "the Git-Mastery home screen with a terminal and a commit graph" }]
+    },
+    {
+      "repo": "W-BOT",
+      "branch": "feature/w-bot",
+      "color": "cyan",
+      "state": "wip",
+      "note": "branch still open · work in progress",
+      "description": "A whiteboard V-plotter that changes its own pen colour: two motors, three pens, driven from a web UI or by an AI over MCP.",
+      "images": [
+        { "file": "w-bot-revolver.jpg", "alt": "3D model of the three-pen revolver" },
+        { "file": "w-bot-ui.jpg", "alt": "the web UI simulating a drawing" }
+      ]
+    }
+  ],
+  "more": {
+    "max": 4,
+    "activeWithinDays": 365,
     "exclude": ["MikaStiebitz"]
   },
-  "heartbeatDays": 60
+  "visitors": {
+    "show": 5,
+    "messages": ["hello world", "nice work", "git gud"]
+  }
 }

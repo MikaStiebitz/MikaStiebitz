@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="162" viewBox="0 0 840 162" fill="none" role="img">
+<defs>
+<filter id="glow" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="3.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+
+</defs>
+<rect width="840" height="162" fill="#0C091F"/><path d="M.5 0V162M839.5 0V162" stroke="#2B2450"/>
+<line x1="44" y1="0" x2="44" y2="162" stroke="#9455EF" stroke-opacity=".18" stroke-width="10" stroke-linecap="round" stroke-dasharray="162" stroke-dashoffset="162"><animate attributeName="stroke-dashoffset" begin="0.527s" dur="0.312s" to="0" fill="freeze"/></line>
+<line x1="44" y1="0" x2="44" y2="162" stroke="#9455EF" stroke-width="3" stroke-dasharray="162" stroke-dashoffset="162"><animate attributeName="stroke-dashoffset" begin="0.527s" dur="0.312s" to="0" fill="freeze"/></line>
+<circle cx="44" cy="0" r="5" fill="#FFFFFF" filter="url(#glow)" opacity="0">
+  <animate attributeName="cy" values="0;0;162;162" keyTimes="0;0.055;0.132;1" begin="4.287s" dur="9.257s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.055;0.056;0.132;0.132;1" begin="4.287s" dur="9.257s" repeatCount="indefinite"/>
+</circle>
+<circle cx="44" cy="58" r="0" fill="#9455EF" stroke="#9455EF" stroke-width="3"><animate attributeName="r" begin="0.638s" dur=".35s" values="0;9.450000000000001;7" fill="freeze"/></circle>
+<g opacity="0"><animate attributeName="opacity" begin="0.688s" dur=".5s" to="1" fill="freeze"/><animateTransform attributeName="transform" type="translate" begin="0.688s" dur=".5s" from="-10 0" to="0 0" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".2 .8 .2 1"/>
+<text x="148" y="34" font-family="'JetBrains Mono','SFMono-Regular','SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#9455EF" font-weight="700" xml:space="preserve">main  ·  day job</text>
+<text x="148" y="68" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="26" fill="#F5F4FD" font-weight="800" letter-spacing="-.5" xml:space="preserve">Tradebyte<tspan fill="#B9B4D6" font-weight="600">  ·  Zalando Group</tspan></text>
+<text x="148" y="98" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="15.5" fill="#B9B4D6" xml:space="preserve">Full-stack developer</text>
+<text x="148" y="128" font-family="'JetBrains Mono','SFMono-Regular','SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#7C7699" xml:space="preserve">TypeScript  ·  React  ·  Next.js  ·  Python  ·  PHP</text>
+</g>
+</svg>
