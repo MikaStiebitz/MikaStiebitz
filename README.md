@@ -1,44 +1,16 @@
-<div align="center">
-
-<img src="assets/boot.svg?v=2026112600" width="100%" alt="mika.os boot sequence with live GitHub stats, ending in: Mika Stiebitz">
-
-<a href="https://github.com/MikaStiebitz"><img src="https://komarev.com/ghpvc/?username=MikaStiebitz&style=flat-square&color=555555&label=profile+views" alt="Profile views"></a>
-<a href="https://wakatime.com/@1722166e-293b-46d0-8ece-a536ce873518"><img src="https://wakatime.com/badge/user/1722166e-293b-46d0-8ece-a536ce873518.svg?style=flat-square" alt="Total time coded (WakaTime)"></a>
-
-</div>
-
-<br>
-
-<img src="assets/pulse.svg?v=2026112600" width="100%" alt="Heartbeat: contribution activity rendered as an animated ECG line">
-
-<p>
-<img src="assets/activity.svg?v=2026112600" width="49%" alt="Recent public GitHub activity">
-<img src="assets/wakatime.svg?v=2026112600" width="49%" alt="WakaTime coding stats for the last 7 days">
-</p>
-
-<h3>Currently shipping</h3>
-
-<p>
-<a href="https://github.com/MikaStiebitz/W-BOT"><img src="assets/repos/W-BOT.svg?v=2026112600" width="49%" alt="W-BOT: A whiteboard V-plotter that changes its own pen colour."></a>
-<a href="https://github.com/MikaStiebitz/React-Modern-Gantt"><img src="assets/repos/React-Modern-Gantt.svg?v=2026112600" width="49%" alt="React-Modern-Gantt: A library for an interactive Gantt Chart 🚀"></a>
-<a href="https://github.com/MikaStiebitz/Git-Mastery"><img src="assets/repos/Git-Mastery.svg?v=2026112600" width="49%" alt="Git-Mastery: A game to easily learn Git!"></a>
-<a href="https://github.com/MikaStiebitz/Availability-Checker"><img src="assets/repos/Availability-Checker.svg?v=2026112600" width="49%" alt="Availability-Checker: Is your name actually available? Check domains, app stores, GitHub and trademark registers, from the browser or via MCP."></a>
-<a href="https://github.com/MikaStiebitz/faster-browser-agent"><img src="assets/repos/faster-browser-agent.svg?v=2026112600" width="49%" alt="faster-browser-agent: A fast MCP browser server for AI agents: navigates large, tab-heavy apps by reading their routes, not by clicking."></a>
-<a href="https://github.com/MikaStiebitz/Cigarettes-For-Claude"><img src="assets/repos/Cigarettes-For-Claude.svg?v=2026112600" width="49%" alt="Cigarettes-For-Claude: Make your Claude addicted to nicotine"></a>
-</p>
-
-<h3>Toolbox</h3>
+<p><img src="assets/path/head.svg?v=da972a9c" width="100%" align="top" alt="Mika Stiebitz. Full-stack developer building tools for developers and the AI agents next to them. 15 public repos, 616 ★, 1072 contributions in the last 30 days."><img src="assets/path/work.svg?v=3c5f5a17" width="100%" align="top" alt="Day job: Full-stack developer at Tradebyte, Zalando Group. TypeScript, React, Next.js, Python, PHP."><a href="https://github.com/MikaStiebitz/Git-Mastery"><img src="assets/path/git-mastery.svg?v=69808934" width="100%" align="top" alt="Git-Mastery: A browser game where you type real Git commands and watch the commit graph react."></a><a href="https://github.com/MikaStiebitz/Git-Mastery"><img src="assets/path/git-mastery-shot.svg?v=f7a7104f" width="100%" align="top" alt="Git-Mastery: the Git-Mastery home screen with a terminal and a commit graph"></a><a href="https://github.com/MikaStiebitz/W-BOT"><img src="assets/path/w-bot.svg?v=bab72b44" width="100%" align="top" alt="W-BOT: A whiteboard V-plotter that changes its own pen colour: two motors, three pens, driven from a web UI or by an AI over MCP."></a><a href="https://github.com/MikaStiebitz/W-BOT"><img src="assets/path/w-bot-shot.svg?v=e71a816d" width="100%" align="top" alt="W-BOT: 3D model of the three-pen revolver; the web UI simulating a drawing"></a><img src="assets/path/more.svg?v=e4c90d31" width="100%" align="top" alt="More branches, most recently pushed first:"><a href="https://github.com/MikaStiebitz/React-Modern-Gantt"><img src="assets/path/more-react-modern-gantt.svg?v=6de2475c" width="100%" align="top" alt="React-Modern-Gantt: A library for an interactive Gantt Chart 🚀"></a><a href="https://github.com/MikaStiebitz/Availability-Checker"><img src="assets/path/more-availability-checker.svg?v=2572662b" width="100%" align="top" alt="Availability-Checker: Is your name actually available? Check domains, app stores, GitHub and trademark registers, from the browser or via MCP."></a><a href="https://github.com/MikaStiebitz/faster-browser-agent"><img src="assets/path/more-faster-browser-agent.svg?v=79ea4e0e" width="100%" align="top" alt="faster-browser-agent: A fast MCP browser server for AI agents: navigates large, tab-heavy apps by reading their routes, not by clicking."></a><a href="https://github.com/MikaStiebitz/Cigarettes-For-Claude"><img src="assets/path/more-cigarettes-for-claude.svg?v=aeb749a2" width="100%" align="top" alt="Cigarettes-For-Claude: Make your Claude addicted to nicotine"></a><a href="https://github.com/MikaStiebitz/MikaStiebitz/issues/new?title=commit%3A%20hello%20world&amp;body=Just%20press%20the%20green%20button.%20A%20bot%20adds%20your%20name%20to%20the%20visitors%20branch%20of%20my%20profile%20README%20and%20closes%20this%20issue."><img src="assets/path/visitors.svg?v=de52a76b" width="100%" align="top" alt="Visitors branch: no commits yet. Click to leave your own commit."></a><img src="assets/path/tail.svg?v=8a11d7b7" width="100%" align="top" alt="To be continued."></p>
 
 <p align="center">
-<img src="https://techstack-generator.vercel.app/ts-icon.svg" width="58" height="58" alt="TypeScript" title="TypeScript">&nbsp;&nbsp;<img src="https://techstack-generator.vercel.app/js-icon.svg" width="58" height="58" alt="JavaScript" title="JavaScript">&nbsp;&nbsp;<img src="https://techstack-generator.vercel.app/react-icon.svg" width="58" height="58" alt="React" title="React">&nbsp;&nbsp;<img src="https://techstack-generator.vercel.app/python-icon.svg" width="58" height="58" alt="Python" title="Python">&nbsp;&nbsp;<img src="https://techstack-generator.vercel.app/cpp-icon.svg" width="58" height="58" alt="C++" title="C++">&nbsp;&nbsp;<img src="https://techstack-generator.vercel.app/docker-icon.svg" width="58" height="58" alt="Docker" title="Docker">&nbsp;&nbsp;<img src="https://techstack-generator.vercel.app/mysql-icon.svg" width="58" height="58" alt="MySQL" title="MySQL">&nbsp;&nbsp;<img src="https://techstack-generator.vercel.app/restapi-icon.svg" width="58" height="58" alt="REST APIs" title="REST APIs">&nbsp;&nbsp;<img src="https://techstack-generator.vercel.app/github-icon.svg" width="58" height="58" alt="GitHub" title="GitHub">
+<sub>Leave your commit on the <code>visitors</code> branch:</sub><br>
+<a href="https://github.com/MikaStiebitz/MikaStiebitz/issues/new?title=commit%3A%20hello%20world&amp;body=Just%20press%20the%20green%20button.%20A%20bot%20adds%20your%20name%20to%20the%20visitors%20branch%20of%20my%20profile%20README%20and%20closes%20this%20issue."><code>git commit -m "hello world"</code></a>&nbsp; <a href="https://github.com/MikaStiebitz/MikaStiebitz/issues/new?title=commit%3A%20nice%20work&amp;body=Just%20press%20the%20green%20button.%20A%20bot%20adds%20your%20name%20to%20the%20visitors%20branch%20of%20my%20profile%20README%20and%20closes%20this%20issue."><code>git commit -m "nice work"</code></a>&nbsp; <a href="https://github.com/MikaStiebitz/MikaStiebitz/issues/new?title=commit%3A%20git%20gud&amp;body=Just%20press%20the%20green%20button.%20A%20bot%20adds%20your%20name%20to%20the%20visitors%20branch%20of%20my%20profile%20README%20and%20closes%20this%20issue."><code>git commit -m "git gud"</code></a>
 </p>
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=nextjs,nodejs,tailwind,vite,electron,rust,php,aws,mongodb,supabase&perline=10" height="40" alt="Next.js, Node.js, Tailwind, Vite, Electron, Rust, PHP, AWS, MongoDB, Supabase">
+<img src="https://skillicons.dev/icons?i=ts,react,nextjs,nodejs,tailwind,python,rust,cpp,php,docker,aws&perline=11" height="36" alt="TypeScript, React, Next.js, Node.js, Tailwind, Python, Rust, C++, PHP, Docker, AWS">
 </p>
 
-<br>
-
-<div align="center">
-<sub><code>last rebuild: 2026-11-26 00:29 UTC</code> · <a href="https://mikastiebitz.vercel.app/">portfolio ↗</a> · <a href="scripts/readme">how this README builds itself</a></sub>
-</div>
+<p align="center">
+<a href="https://mikastiebitz.vercel.app/">portfolio ↗</a>&nbsp;&nbsp;
+<a href="https://github.com/MikaStiebitz"><img src="https://komarev.com/ghpvc/?username=MikaStiebitz&style=flat-square&color=9455EF&label=profile+views" alt="Profile views" align="top"></a>
+<a href="https://wakatime.com/@1722166e-293b-46d0-8ece-a536ce873518"><img src="https://wakatime.com/badge/user/1722166e-293b-46d0-8ece-a536ce873518.svg?style=flat-square" alt="Total time coded (WakaTime)" align="top"></a>
+</p>

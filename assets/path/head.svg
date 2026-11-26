@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="232" viewBox="0 0 840 232" fill="none" role="img">
+<defs>
+<filter id="glow" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="3.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<radialGradient id="halo" cx="88%" cy="0%" r="70%"><stop offset="0" stop-color="#9455EF" stop-opacity=".22"/><stop offset="1" stop-color="#9455EF" stop-opacity="0"/></radialGradient>
+<clipPath id="type"><rect x="148" y="24" width="0" height="24"><animate attributeName="width" begin=".1s" dur=".7s" to="260" fill="freeze"/></rect></clipPath>
+</defs>
+<path d="M.5 232V18a17.5 17.5 0 0 1 17.5-17.5h804a17.5 17.5 0 0 1 17.5 17.5V232" fill="#0C091F" stroke="#2B2450"/>
+<rect x="1" y="1" width="838" height="231" rx="17" fill="url(#halo)"/>
+<text x="148" y="40" font-family="'JetBrains Mono','SFMono-Regular','SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#7C7699" clip-path="url(#type)"><tspan fill="#B7F652">$</tspan> git log --graph --all</text>
+<line x1="44" y1="114" x2="44" y2="232" stroke="#9455EF" stroke-opacity=".18" stroke-width="10" stroke-linecap="round" stroke-dasharray="118" stroke-dashoffset="118"><animate attributeName="stroke-dashoffset" begin="0.3s" dur="0.227s" to="0" fill="freeze"/></line>
+<line x1="44" y1="114" x2="44" y2="232" stroke="#9455EF" stroke-width="3" stroke-dasharray="118" stroke-dashoffset="118"><animate attributeName="stroke-dashoffset" begin="0.3s" dur="0.227s" to="0" fill="freeze"/></line>
+<circle cx="44" cy="114" r="5" fill="#FFFFFF" filter="url(#glow)" opacity="0">
+  <animate attributeName="cy" values="114;114;232;232" keyTimes="0;0;0.055;1" begin="4.287s" dur="9.257s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0;0.001;0.055;0.056;1" begin="4.287s" dur="9.257s" repeatCount="indefinite"/>
+</circle>
+<circle cx="44" cy="114" r="9" fill="#9455EF" opacity="0"><animate attributeName="r" values="9;25.2" dur="1.8s" begin="0.3s" repeatCount="indefinite"/><animate attributeName="opacity" values=".5;0" dur="1.8s" begin="0.3s" repeatCount="indefinite"/></circle><circle cx="44" cy="114" r="0" fill="#9455EF" stroke="#9455EF" stroke-width="3"><animate attributeName="r" begin="0.3s" dur=".35s" values="0;12.15;9" fill="freeze"/></circle>
+<g opacity="0"><animate attributeName="opacity" begin="0.35s" dur=".5s" to="1" fill="freeze"/><animateTransform attributeName="transform" type="translate" begin="0.35s" dur=".5s" from="-10 0" to="0 0" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".2 .8 .2 1"/>
+<rect x="148" y="60" width="105.6" height="24" rx="12" fill="#9455EF" fill-opacity=".12" stroke="#9455EF" stroke-opacity=".55"/>
+<text x="159" y="76.5" font-family="'JetBrains Mono','SFMono-Regular','SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" font-weight="700" fill="#9455EF">HEAD → main</text>
+<text x="145" y="136" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="52" fill="#F5F4FD" font-weight="800" letter-spacing="-1.8">Mika Stiebitz<tspan fill="#B7F652">.</tspan></text>
+<text x="148" y="168" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="16.5" fill="#B9B4D6">Full-stack developer building tools for developers and the AI agents next to them.</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" begin="0.504s" dur=".5s" to="1" fill="freeze"/><animateTransform attributeName="transform" type="translate" begin="0.504s" dur=".5s" from="-10 0" to="0 0" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".2 .8 .2 1"/>
+<text x="148" y="204" font-family="'JetBrains Mono','SFMono-Regular','SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#7C7699" xml:space="preserve">15 public repos   ·   616 ★   ·   1072 contributions in the last 30 days</text>
+</g>
+</svg>

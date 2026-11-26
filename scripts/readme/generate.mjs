@@ -1,19 +1,20 @@
 #!/usr/bin/env node
-// Rebuilds README.md and assets/*.svg from live GitHub + WakaTime data.
+// Rebuilds README.md and assets/path/*.svg from live GitHub data.
 //
 //   node scripts/readme/generate.mjs                  # live (needs GITHUB_TOKEN)
 //   node scripts/readme/generate.mjs --fixture f.json # render from a saved snapshot
 //   node scripts/readme/generate.mjs --dump f.json    # also save the snapshot
 
 import { readFile, writeFile, mkdir, readdir, rm } from "node:fs/promises";
-import { existsSync } from "node:fs";
+import { createHash } from "node:crypto";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { collect } from "./fetch.mjs";
-import { renderBoot, renderPulse, renderActivity, renderWaka, renderRepo, describeEvents, esc } from "./render.mjs";
+import { head, work, project, shots, moreHeader, moreRow, visitors, tail, layout, esc } from "./render.mjs";
+import { readVisitors, issueUrl } from "./visitors.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..", "..");
-const ASSETS = join(ROOT, "assets");
+const OUT = join(ROOT, "assets", "path");
 const arg = (name) => {
   const i = process.argv.indexOf(name);
   return i > -1 ? process.argv[i + 1] : null;
@@ -24,81 +25,129 @@ const fixture = arg("--fixture");
 const data = fixture ? JSON.parse(await readFile(fixture, "utf8")) : await collect(config, process.env);
 if (arg("--dump")) await writeFile(arg("--dump"), JSON.stringify(data, null, 1));
 
-const now = data.now ? new Date(data.now).getTime() : Date.now();
-
 if (!data.repos) {
   // Without the repo list there is nothing meaningful to publish; keep the last good build.
   console.error("[readme] could not load repositories — leaving README untouched");
   process.exit(0);
 }
 
-const publicRepos = data.repos.filter((r) => !r.private && !r.fork && !r.archived);
-const shown = (() => {
-  const { max, min, activeWithinDays, exclude = [] } = config.repos;
-  const pool = publicRepos
-    .filter((r) => !exclude.includes(r.name))
-    .sort((a, b) => new Date(b.pushed_at) - new Date(a.pushed_at));
-  const active = pool.filter((r) => now - new Date(r.pushed_at).getTime() < activeWithinDays * 864e5);
-  return (active.length >= min ? active : pool).slice(0, max);
-})();
+const now = data.now ? new Date(data.now).getTime() : Date.now();
+const slug = (name) => name.toLowerCase().replace(/[^a-z0-9]+/g, "-");
+const host = (url) => (url ? url.replace(/^https?:\/\//, "").replace(/\/$/, "") : "");
 
-const stars = publicRepos.reduce((a, r) => a + r.stargazers_count, 0);
-const flagship = [...publicRepos].sort((a, b) => b.stargazers_count - a.stargazers_count)[0];
-const lastPush = shown[0];
-const created = data.user?.created_at ? new Date(data.user.created_at).getTime() : null;
-const uptime = (() => {
-  if (!created) return "online";
-  const months = Math.floor((now - created) / 2629800000);
-  return `${Math.floor(months / 12)}y ${months % 12}m`;
-})();
-const heartbeat = data.contributions ? data.contributions.slice(-30).reduce((a, d) => a + d.count, 0) : null;
-
-const files = {
-  "boot.svg": renderBoot({
-    now,
-    displayName: config.displayName,
-    tagline: config.tagline,
-    roles: config.roles,
-    location: data.user?.location,
-    repoCount: data.user?.public_repos ?? publicRepos.length,
-    stars,
-    flagship: flagship && flagship.stargazers_count > 0 ? { name: flagship.name, stars: flagship.stargazers_count } : null,
-    heartbeat,
-    lastPush: lastPush ? { name: lastPush.name, at: lastPush.pushed_at } : null,
-    uptime,
-  }),
-  "pulse.svg": renderPulse(data.contributions),
-  "activity.svg": renderActivity(describeEvents(data.events, config.login), now),
-  "wakatime.svg": renderWaka(data.waka),
-};
-
-await mkdir(join(ASSETS, "repos"), { recursive: true });
-for (const f of await readdir(join(ASSETS, "repos"))) await rm(join(ASSETS, "repos", f));
-shown.forEach((r) => (files[`repos/${r.name}.svg`] = renderRepo(r, now)));
-
-// Keep the last real WakaTime card if this run couldn't reach WakaTime.
-if (!data.waka && existsSync(join(ASSETS, "wakatime.svg"))) {
-  const prev = await readFile(join(ASSETS, "wakatime.svg"), "utf8");
-  if (!prev.includes("warming up")) delete files["wakatime.svg"];
+// Reads width and height from a JPEG's frame header, so config only has to name the file.
+function jpegSize(buf) {
+  let i = 2;
+  while (i < buf.length) {
+    const marker = buf[i + 1];
+    const len = buf.readUInt16BE(i + 2);
+    if (marker >= 0xc0 && marker <= 0xcf && ![0xc4, 0xc8, 0xcc].includes(marker))
+      return { height: buf.readUInt16BE(i + 5), width: buf.readUInt16BE(i + 7) };
+    i += 2 + len;
+  }
+  throw new Error("not a JPEG with a frame header");
 }
 
-for (const [name, content] of Object.entries(files)) await writeFile(join(ASSETS, name), content);
+async function loadImage({ file, alt }) {
+  const buf = await readFile(join(ROOT, "scripts", "readme", "images", file));
+  return { ...jpegSize(buf), mime: "image/jpeg", base64: buf.toString("base64"), alt };
+}
 
-// Cache-buster so GitHub's image proxy picks up fresh renders.
-const v = new Date(now).toISOString().slice(0, 13).replace(/\D/g, "");
-const repoGrid = shown
-  .map((r) => `<a href="${esc(r.html_url)}"><img src="assets/repos/${encodeURIComponent(r.name)}.svg?v=${v}" width="49%" alt="${esc(r.name)}: ${esc(r.description ?? "")}"></a>`)
-  .join("\n");
-const updated = new Date(now).toISOString().slice(0, 16).replace("T", " ") + " UTC";
+const publicRepos = data.repos.filter((r) => !r.private && !r.fork && !r.archived);
+const byName = new Map(publicRepos.map((r) => [r.name.toLowerCase(), r]));
+
+const featured = [];
+for (const fc of config.featured) {
+  const repo = byName.get(fc.repo.toLowerCase());
+  if (!repo) {
+    console.warn(`[readme] featured repo ${fc.repo} is not public (any more), skipping it`);
+    continue;
+  }
+  featured.push({
+    slug: slug(repo.name),
+    name: repo.name,
+    url: repo.html_url,
+    branch: fc.branch,
+    color: fc.color,
+    state: fc.state,
+    note: fc.note,
+    description: fc.description ?? repo.description ?? "",
+    stars: repo.stargazers_count,
+    forks: repo.forks_count,
+    language: repo.language,
+    link: host(fc.link ?? repo.homepage),
+    images: await Promise.all((fc.images ?? []).map(loadImage)),
+  });
+}
+
+const skip = new Set([...featured.map((p) => p.name), ...(config.more.exclude ?? [])].map((n) => n.toLowerCase()));
+const more = publicRepos
+  .filter((r) => !skip.has(r.name.toLowerCase()))
+  .filter((r) => now - new Date(r.pushed_at).getTime() < config.more.activeWithinDays * 864e5)
+  .sort((a, b) => new Date(b.pushed_at) - new Date(a.pushed_at))
+  .slice(0, config.more.max)
+  .map((r) => ({
+    slug: slug(r.name),
+    name: r.name,
+    url: r.html_url,
+    description: r.description ?? "",
+    stars: r.stargazers_count,
+    language: r.language,
+  }));
+
+const stars = publicRepos.reduce((a, r) => a + r.stargazers_count, 0);
+const stats = [
+  `${data.user?.public_repos ?? publicRepos.length} public repos`,
+  `${stars} ★`,
+  data.contributions30d != null ? `${data.contributions30d} contributions in the last 30 days` : null,
+].filter(Boolean);
+
+const guests = await readVisitors(ROOT);
+const repoUrl = `https://github.com/${config.login}/${config.login}`;
+
+const strips = layout([
+  head({ displayName: config.displayName, tagline: config.tagline, stats }),
+  work(config.work),
+  ...featured.flatMap((p) => (p.images.length ? [project(p), shots(p)] : [project(p)])),
+  ...(more.length ? [moreHeader(), ...more.map(moreRow)] : []),
+  visitors({
+    href: issueUrl(repoUrl, config.visitors.messages[0]),
+    commits: guests.slice(0, config.visitors.show).map((g) => ({
+      login: g.login,
+      message: g.message,
+      hash: createHash("sha1").update(`${g.login}${g.at}`).digest("hex").slice(0, 7),
+      date: new Date(g.at).toLocaleDateString("en-US", { month: "short", day: "numeric", timeZone: "UTC" }),
+    })),
+  }),
+  tail(),
+]);
+
+await mkdir(OUT, { recursive: true });
+const keep = new Set(strips.map((s) => `${s.name}.svg`));
+for (const file of await readdir(OUT)) if (!keep.has(file)) await rm(join(OUT, file));
+for (const s of strips) await writeFile(join(OUT, `${s.name}.svg`), s.svg);
+
+// The strips sit on one line with nothing between them, so they stack into one seamless graph.
+// The version is a content hash: an image URL only changes when its picture does.
+const stripHtml = strips
+  .map((s) => {
+    const v = createHash("sha1").update(s.svg).digest("hex").slice(0, 8);
+    const img = `<img src="assets/path/${s.name}.svg?v=${v}" width="100%" align="top" alt="${esc(s.alt ?? "")}">`;
+    return s.href ? `<a href="${esc(s.href)}">${img}</a>` : img;
+  })
+  .join("");
+
+const commitLinks = config.visitors.messages
+  .map((m) => `<a href="${esc(issueUrl(repoUrl, m))}"><code>git commit -m "${esc(m)}"</code></a>`)
+  .join("&nbsp; ");
 
 const template = await readFile(join(ROOT, "scripts", "readme", "template.md"), "utf8");
 const readme = template
   .replace(/^<!--[\s\S]*?-->\n/, "")
-  .replaceAll("{{v}}", v)
+  .replaceAll("{{strips}}", stripHtml)
+  .replaceAll("{{commit_links}}", commitLinks)
   .replaceAll("{{login}}", config.login)
-  .replaceAll("{{wakatime_user}}", config.wakatimeUser)
-  .replaceAll("{{repo_grid}}", repoGrid)
-  .replaceAll("{{updated}}", updated);
+  .replaceAll("{{wakatime_user}}", config.wakatimeUser);
 await writeFile(join(ROOT, "README.md"), readme);
 
-console.log(`[readme] rendered ${Object.keys(files).length} assets · repos: ${shown.map((r) => r.name).join(", ")}`);
+console.log(`[readme] rendered ${strips.length} strips · featured: ${featured.map((p) => p.name).join(", ")} · more: ${more.map((r) => r.name).join(", ")} · visitors: ${guests.length}`);

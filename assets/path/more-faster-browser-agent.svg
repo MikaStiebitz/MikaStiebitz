@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="62" viewBox="0 0 840 62" fill="none" role="img">
+<defs>
+<filter id="glow" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="3.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+
+</defs>
+<rect width="840" height="62" fill="#0C091F"/><path d="M.5 0V62M839.5 0V62" stroke="#2B2450"/>
+<line x1="44" y1="0" x2="44" y2="62" stroke="#9455EF" stroke-opacity=".18" stroke-width="10" stroke-linecap="round" stroke-dasharray="62" stroke-dashoffset="62"><animate attributeName="stroke-dashoffset" begin="3.033s" dur="0.119s" to="0" fill="freeze"/></line>
+<line x1="44" y1="0" x2="44" y2="62" stroke="#9455EF" stroke-width="3" stroke-dasharray="62" stroke-dashoffset="62"><animate attributeName="stroke-dashoffset" begin="3.033s" dur="0.119s" to="0" fill="freeze"/></line>
+<circle cx="44" cy="0" r="5" fill="#FFFFFF" filter="url(#glow)" opacity="0">
+  <animate attributeName="cy" values="0;0;62;62" keyTimes="0;0.667;0.697;1" begin="4.287s" dur="9.257s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.667;0.668;0.697;0.697;1" begin="4.287s" dur="9.257s" repeatCount="indefinite"/>
+</circle>
+<path d="M44 2C44 22 72 30 100 30" pathLength="1" stroke="#C4B5FD" stroke-width="3" stroke-linecap="round" stroke-dasharray="1" stroke-dashoffset="1"><animate attributeName="stroke-dashoffset" begin="3.037s" dur="0.5s" to="0" fill="freeze"/></path>
+<circle r="4.5" fill="#C4B5FD" filter="url(#glow)" opacity="0">
+  <animateMotion path="M44 2C44 22 72 30 100 30" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.668;0.682;1" begin="4.287s" dur="9.257s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.668;0.669;0.682;0.682;1" begin="4.287s" dur="9.257s" repeatCount="indefinite"/>
+</circle>
+<circle cx="100" cy="30" r="0" fill="#0C091F" stroke="#C4B5FD" stroke-width="3"><animate attributeName="r" begin="3.09s" dur=".35s" values="0;6.75;5" fill="freeze"/></circle>
+<g opacity="0"><animate attributeName="opacity" begin="3.14s" dur=".5s" to="1" fill="freeze"/><animateTransform attributeName="transform" type="translate" begin="3.14s" dur=".5s" from="-10 0" to="0 0" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".2 .8 .2 1"/>
+<text x="148" y="28" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="17" fill="#F5F4FD" font-weight="700">faster-browser-agent</text>
+<text x="148" y="49" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="13.5" fill="#7C7699">A fast MCP browser server for AI agents: navigates large, tab-heavy apps by reading…</text>
+<text x="804" y="28" font-family="'JetBrains Mono','SFMono-Regular','SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#B9B4D6" text-anchor="end" xml:space="preserve">TypeScript   ★ 1</text>
+</g>
+</svg>

@@ -1,21 +1,26 @@
 # How this profile README builds itself
 
-Every 4 hours, [`.github/workflows/readme.yml`](../../.github/workflows/readme.yml) runs `generate.mjs`. The script needs no dependencies and does three things:
+The README is one git graph that runs down the page: the day job is `main`, each project is a branch, and visitors can add a commit of their own. [`.github/workflows/readme.yml`](../../.github/workflows/readme.yml) rebuilds it every 6 hours and whenever a visitor leaves a commit. The scripts need no dependencies.
 
-1. **Collects data** (`fetch.mjs`): profile, public repos, public events, the contribution calendar (GraphQL) and WakaTime's last 7 days. If one source fails, the bot keeps going and shows that panel as "syncing".
-2. **Renders SVGs** (`render.mjs`) into `assets/`: the `mika.os` boot screen, the ECG heartbeat, the activity timeline, WakaTime stats and one card per active repo. The SVGs are hand-written, animated with SMIL and use no external fonts or images, so GitHub's image proxy shows them as they are, animations included.
-3. **Writes `README.md`** from `template.md` and commits only if something changed.
+1. **`visitors.mjs collect`** turns every open issue titled `commit: <message>` into an entry in `data/visitors.json`.
+2. **`generate.mjs`** fetches the live numbers (`fetch.mjs`), renders the graph (`render.mjs`) into `assets/path/` and writes `README.md` from `template.md`.
+3. The workflow commits only if something changed, then **`visitors.mjs close`** thanks the visitors and closes their issues.
+
+The graph is cut into full-width SVG strips so each station can be its own link. They share one timeline: on load the path grows from top to bottom, then a commit dot keeps travelling down it. The strips must stay on one line in `README.md` with `align="top"`, otherwise gaps appear between them.
 
 | Want to change… | Edit |
 | --- | --- |
-| Text, layout, sections, toolbox icons | `template.md` (never `README.md`, which gets overwritten) |
-| Repo cards (count, what counts as "active", exclusions), tagline, rotating "currently" roles | `readme.config.json` |
-| Look of a panel | `render.mjs` |
+| Name, tagline, the Tradebyte station (`since` and `what` are optional lines) | `readme.config.json` |
+| Featured projects: order, branch name, colour, text, `shipped` or `wip` | `featured` in `readme.config.json` |
+| Project photos | JPEGs in `images/`, named in `featured[].images` |
+| How many other repos show up, and which never do | `more` in `readme.config.json` |
+| The messages visitors can pick | `visitors.messages` in `readme.config.json` |
+| Icons, badges and links under the graph | `template.md` (never `README.md`, which gets overwritten) |
+| Look of the graph | `render.mjs` |
 
-Optional repository secrets:
+Visitors: only a GitHub login and one of the fixed messages ever reach the README, never free text from an issue. To remove someone, delete their entry from `data/visitors.json`.
 
-- `WAKATIME_API_KEY`: needed unless your WakaTime stats are public.
-- `README_TOKEN`: a PAT with `read:user`, so contributions to private repos count toward the pulse. Without it, the default `GITHUB_TOKEN` is used.
+Optional repository secret: `README_TOKEN`, a PAT with `read:user`, so contributions to private repos count too. Without it the default `GITHUB_TOKEN` is used.
 
 Preview locally from a saved snapshot:
 
